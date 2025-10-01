@@ -1,5 +1,5 @@
 [package]
-name = "your_tokenizer_project"
+name = "my_spacy_tokenizer"
 version = "0.1.0"
 edition = "2021"
 
