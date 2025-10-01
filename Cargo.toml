@@ -1,0 +1,18 @@
+[package]
+name = "your_tokenizer_project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lazy_static = "1.4.0"
+unicode-segmentation = "1.10.0" # Or latest
+unicode-general-category = "0.6.0" # Or latest
+regex = "1" # If you still need the standard regex crate for other things
+fancy-regex = "0.13.0"
+regex-syntax = "0.8.2"
+aho-corasick = "1.1.2"
+rayon = "1.10" 
+once_cell = "1.19.0"
+
+[profile.release]
+debug = true 
